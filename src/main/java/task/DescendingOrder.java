@@ -15,7 +15,7 @@ public class DescendingOrder {
         Arrays.sort(data);
         StringBuffer stringBuffer = new StringBuffer(new String(data));
         stringBuffer.reverse();
-        return Integer.parseInt(stringBuffer.toString());//Your code
+        return Integer.parseInt(stringBuffer.toString());
     }
 }
 
